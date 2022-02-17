@@ -15,7 +15,7 @@ public class MovieRecommenderSystemApplication {
 
 		String[] result  = recommender.recommendMovies("Finding Dory");
 		System.out.println(result);
-		System.out.println(Arrays.toString(result));
+		System.out.println(Arrays.hashCode(result));
 
 
 
